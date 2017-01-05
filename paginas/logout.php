@@ -4,5 +4,7 @@
     // Destrói a sessão limpando todos os valores salvos
     session_destroy(); 
     // Redireciona o visitante
-    header("Location: ../index.php"); exit; 
+    header("Location: ../index.php");
+
+exit; 
  ?>
