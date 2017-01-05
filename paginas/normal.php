@@ -16,6 +16,7 @@
   ?>
    
 <h1>Página normal</h1>
-<p>Olá, <?php echo $_SESSION['UsuarioNome']; ?>!</p>
+<p>Olá <?php echo $_SESSION['UsuarioNome']; ?>, seja bem vindo!</p>
 
 <a href="logout.php">logout</a>
+
